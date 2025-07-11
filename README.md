@@ -29,5 +29,5 @@ This repository contains a project implementation related to String Matching Alg
 - Chaitanya Nemmani
 - Potla Naga Sai Prajith
 - Kagita Meenakshi
-- Reddy Roshni
+- Reddy Roshni  
 The project was completed as part of a team assignment in the course **MA2233 Data Structures and Applications Lab** under the guidance of **Prof. Vikas Krishnamurthy**.
