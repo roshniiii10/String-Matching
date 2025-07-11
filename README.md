@@ -1,5 +1,5 @@
 # String-Matching
-This repository contains a project implementation related to String Matching Algorithms, used for efficiently finding occurrences of a pattern within a text. The project was completed as part of a team assignment in the course MA 2233 Data Structures and Applications Lab.
+This repository contains a project implementation related to String Matching Algorithms, used for efficiently finding occurrences of a pattern within a text.
 ## Files in the Repository
 1. `Finite-Automaton.c` :
 - This is the implementation file for the Finite Automaton String Matching Algorithm.
@@ -24,4 +24,10 @@ This repository contains a project implementation related to String Matching Alg
 - This suffix tree allows efficient pattern matching and substring operations once fully built.
 ## Real-Life Applications
 - **Plagiarism Detection :** Comparing documents to find matching sequences of words or phrases.
-- **DNA Sequence Analysis :** In bioinformatics, string matching is crucial for identifying specific gene sequences or patterns within long DNA strings. 
+- **DNA Sequence Analysis :** In bioinformatics, string matching is crucial for identifying specific gene sequences or patterns within long DNA strings.
+## Credits :
+- Chaitanya Nemmani
+- Potla Naga Sai Prajith
+- Kagita Meenakshi
+- Reddy Roshni
+The project was completed as part of a team assignment in the course **MA2233 Data Structures and Applications Lab** under the guidance of **Prof. Vikas Krishnamurthy**.
