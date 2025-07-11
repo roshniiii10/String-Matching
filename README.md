@@ -22,3 +22,6 @@ This repository contains a project implementation related to String Matching Alg
 6. `Suffix-Trees.cpp` :
 - This is the implementation file for constructing a naive Suffix Tree for a given string.
 - This suffix tree allows efficient pattern matching and substring operations once fully built.
+## Real-Life Applications
+- ### **Plagiarism Detection** : Comparing documents to find matching sequences of words or phrases.
+- ### **DNA Sequence Analysis** : In bioinformatics, string matching is crucial for identifying specific gene sequences or patterns within long DNA strings. 
