@@ -1,2 +1,7 @@
 # String-Matching
 This repository contains a project implementation related to String Matching Algorithms, used for efficiently finding occurrences of a pattern within a text. The project was completed as part of a team assignment in the course MA 2233 Data Structures and Applications Lab.
+## Files in the Repository
+1. `Finite-Automaton.c` :
+- This is the implementation file for the Finite Automaton String Matching Algorithm.
+- It builds a finite automaton for the given pattern and uses it to scan the text in a single pass, providing efficient pattern matching.
+2. 
