@@ -1,33 +1,60 @@
-# String-Matching
-This repository contains a project implementation related to String Matching Algorithms, used for efficiently finding occurrences of a pattern within a text.
-## Files in the Repository
-1. `Finite-Automaton.c` :
-- This is the implementation file for the Finite Automaton String Matching Algorithm.
-- It builds a finite automaton for the given pattern and uses it to scan the text in a single pass, providing efficient pattern matching.
-2. `Knuth-Morris-Pratt.c` :
-- This is the implementation file for the Knuth-Morris-Pratt(KMP) String Matching Algorithm.
-- It preprocesses the pattern to create a longest prefix suffix array, which helps to avoid unnecessary character comparisons during the search phase.
-- This improves the overall efficiency by ensuring the text is scanned only once without backtracking.
-3. `Naive-String-Matcher.c` :
-- This is the implementation file for the Naive String Matching Algorithm.
-- It compares the pattern with the text character by character at every possible position in the text.
-- Although simple and easy to implement, this algorithm has a higher time complexity in the worst case compared to optimized string matching algorithms like KMP and Finite Automaton.
-4. `Rabin-Karp-Algorithm.c` :
-- This is the implementation file for the Rabin-Karp String Matching Algorithm.
-- It uses a hashing technique to compare the hash value of the pattern with the hash values of substrings of the text.
-- This algorithm is particularly efficient for detecting multiple pattern occurrences in a text.
-5. `String-Matching-Algorithms.pptx` :
-- This presentation provides an overview of various string matching algorithms, including Naive, Rabin-Karp, Finite Automaton, Knuth-Morris-Pratt (KMP), and Suffix Trees.
-- It covers their problem statements, working principles, time complexities, and illustrative examples.
-6. `Suffix-Trees.cpp` :
-- This is the implementation file for constructing a naive Suffix Tree for a given string.
-- This suffix tree allows efficient pattern matching and substring operations once fully built.
-## Real-Life Applications
-- **Plagiarism Detection :** Comparing documents to find matching sequences of words or phrases.
-- **DNA Sequence Analysis :** In bioinformatics, string matching is crucial for identifying specific gene sequences or patterns within long DNA strings.
-## Credits :
-- Chaitanya Nemmani
-- Potla Naga Sai Prajith
-- Kagita Meenakshi
-- Reddy Roshni  
-This project was completed as part of a team assignment in the course **MA2233 Data Structures and Applications Lab** under the guidance of **Prof. Vikas Krishnamurthy**.
+# String Matching Algorithms
+
+This repository contains implementations of classic string matching algorithms used to efficiently detect pattern occurrences within a given text. The project was developed as part of the **MA2233 Data Structures and Applications Lab** at **IIT Hyderabad**, under the guidance of **Prof. Vikas Krishnamurthy**.
+
+---
+
+## 📂 Files and Descriptions
+
+| File Name                   | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| `Naive-String-Matcher.c`   | Basic implementation; compares pattern at every position; high time complexity. |
+| `Rabin-Karp-Algorithm.c`   | Utilizes rolling hash technique for efficient multiple pattern detection.   |
+| `Knuth-Morris-Pratt.c`     | Uses prefix-suffix array to avoid redundant comparisons; linear time search. |
+| `Finite-Automaton.c`       | Constructs a finite automaton to scan the text deterministically in one pass. |
+| `Suffix-Trees.cpp`         | Naive construction of a suffix tree for fast substring queries.             |
+| `String-Matching-Algorithms.pptx` | Presentation covering theory, use-cases, and complexity of all implemented algorithms. |
+
+---
+
+## 💡 Algorithms Implemented
+
+- **Naive Pattern Matching**
+- **Rabin-Karp Algorithm**
+- **Knuth-Morris-Pratt (KMP)**
+- **Finite Automaton Matcher**
+- **Suffix Trees (Naive Construction)**
+
+---
+
+## 🔍 Real-World Applications
+
+- **Plagiarism Detection** — Identifying matching phrases across documents  
+- **DNA Sequence Analysis** — Matching gene patterns in long DNA strands  
+- **Search Engines** — Fast lookup of query terms in massive text corpora  
+- **Spam Filtering** — Pattern-based filtering of unwanted messages
+
+---
+
+## 👨‍💻 Skills Demonstrated
+
+- Proficient in **C/C++ programming**
+- Applied **hashing, prefix arrays, finite state machines, and tree-based indexing**
+- Compared **time complexities** and trade-offs across multiple algorithms
+- Documented and presented algorithms through technical slides and code
+
+---
+
+## 🤝 Contributors
+
+- Chaitanya Nemmani  
+- Potla Naga Sai Prajith  
+- Kagita Meenakshi  
+- Reddy Roshni
+
+---
+
+## 🏁 Academic Context
+
+This was a collaborative academic project submitted as part of **MA2233: Data Structures and Applications Lab** at IIT Hyderabad. Each member contributed to both code and presentation components.
+
