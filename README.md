@@ -56,4 +56,4 @@ This repository contains implementations of classic string matching algorithms u
 
 ## 🏁 Academic Context
 
-This was a collaborative academic project submitted as part of the course *MA2233 Data Structures and Applications Lab* under the guidance of *Prof. Vikas Krishnamurthy*.
+This was a collaborative academic project submitted as part of **MA2233: Data Structures and Applications Lab** at IIT Hyderabad. 
